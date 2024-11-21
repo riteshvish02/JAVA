@@ -3,8 +3,8 @@ package string;
 public class questions {
     public static void main(String[] args) {
         //replace ascii
-        System.out.println(replaceAscii("abcd"));
-        //all substrings
+//        System.out.println(replaceAscii("abcd"));
+        //  all substrings
         allsubstrings("code");
     }
     public static StringBuilder replaceAscii(String str){
