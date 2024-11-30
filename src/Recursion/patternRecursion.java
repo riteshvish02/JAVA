@@ -19,17 +19,17 @@ public class patternRecursion {
 //        f(1,1,n);
 //    }
 
-    public static void f(String str,int idx){
+    public static void f(String str,int idx,String output){
 
         if(idx >= str.length()) return;
         if(str.charAt(idx) != 'x'){
-            System.out.print(str.charAt(idx));
+            System.out.print(output + str.charAt(idx));
         }
-        f(str,idx+1);
+        f(str,idx+1,output);
     }
     public static void main(String[] args) {
         String str = "xxabcxnm";
         int idx = 0;
-        f(str,idx);
+        f(str,idx,"");
     }
 }
