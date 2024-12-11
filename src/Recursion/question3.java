@@ -9,8 +9,8 @@ public class question3 {
         f(x,N,i+1);
     }
     public static void main(String[] args) {
-        double x = 100;
-        double N = 2;
+        int x = 100;
+        int N = 2;
         f(x,N,1);
         System.out.println(count);
     }
