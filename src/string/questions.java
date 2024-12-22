@@ -3,9 +3,9 @@ package string;
 public class questions {
     public static void main(String[] args) {
         //replace ascii
-//        System.out.println(replaceAscii("abcd"));
+        System.out.println(replaceAscii("abcd"));
         //  all substrings
-        allsubstrings("code");
+//        allsubstrings("code");
     }
     public static StringBuilder replaceAscii(String str){
         StringBuilder str1 = new StringBuilder(str);

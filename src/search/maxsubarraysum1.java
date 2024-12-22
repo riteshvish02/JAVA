@@ -7,7 +7,7 @@ public class maxsubarraysum1 {
         for(int i=0;i<=arr.length-1;i++){
             for (int j = i;j<=arr.length-1;j++){
                 int sum = 0;
-                for(int k = i;k <= arr.length-1;k++){
+                for(int k = i;k <=j;k++){
                     sum += arr[k];
                 }
                 if(maxsum < sum){
