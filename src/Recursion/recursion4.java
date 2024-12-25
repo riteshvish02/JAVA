@@ -1,6 +1,7 @@
 package Recursion;
 
 public class recursion4 {
+    //subsequence
     public static void f(String str,int idx,String output){
         if(idx == str.length()){
             System.out.println(output);
@@ -11,7 +12,7 @@ public class recursion4 {
         }
     }
     public static void main(String[] args) {
-         String str = "abc";
+         String str = "ahbgdc";
          int idx = 0;
          f(str,idx,"");
     }
