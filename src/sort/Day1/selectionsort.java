@@ -10,7 +10,7 @@ public class selectionsort {
     }
     public static int getMinIndex(int arr[],int start){
         int minIndex = start;
-        for(int i = start; i < arr.length;i++){
+        for(int i = start+1; i < arr.length;i++){
             if(arr[i] <=  arr[minIndex]){
                 minIndex = i;
             }
