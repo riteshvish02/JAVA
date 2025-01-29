@@ -8,7 +8,6 @@ public class kadanes2 {
         for(int i =1;i < arr.length;i++){
             currsum = Math.max(arr[i],currsum + arr[i]);
             maxsum = Math.max(currsum,maxsum);
-
         }
         System.out.println(maxsum);
     }

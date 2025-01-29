@@ -11,7 +11,7 @@ public class MaxsubPrefix {
         }
         for(int i = 0;i <arr.length;i++){
             int currsum = 0;
-            for(int j = 0;j <arr.length;j++){
+            for(int j = i;j <arr.length;j++){
                currsum =  i == 0 ?  prefix[j] : prefix[j] - prefix[i-1];
             }
             if(currsum > Maxsum){
