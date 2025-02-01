@@ -6,11 +6,11 @@ public class zeroone {
         int i = 0;
         int j = arr.length - 1;
         while(i <= j){
-            System.out.println("work" + i);
-            System.out.println(arr[i]);
             if (arr[i] == 0) {
                 i++;
                 System.out.println("yes");
+            }else if(arr[j] == 1){
+                j--;
             }else{
                 swap(arr,i,j);
             }
