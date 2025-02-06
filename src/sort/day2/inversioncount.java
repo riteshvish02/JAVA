@@ -1,12 +1,15 @@
 package sort.day2;
 
 public class inversioncount {
+    public static int count = 0;
     public static void main(String[] args) {
-        int[] arr = {5,4,3,2,1};
+        int[] arr = {2, 3, 4, 5, 6};
         mergeSort(arr);
         for(int val:arr){
             System.out.print(val + " ");
         }
+        System.out.println();
+        System.out.println(count);
     }
     public static void mergeSort(int[] arr){
         f(arr,0,arr.length-1);
@@ -47,6 +50,7 @@ public class inversioncount {
                 result[k++] = a[i++];
             }else{
                 result[k++] = b[j++];
+                count += (a.length - i);
             }
         }
         while(i < n){
