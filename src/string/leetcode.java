@@ -5,7 +5,7 @@ public class leetcode {
         //rotation of another string
         String s = "abcde";
         String goal = "abced";
-        String str = s+goal;
+        String str = s+s;
         System.out.println(str);
         System.out.println(str.contains(goal));;
     }
