@@ -14,7 +14,7 @@ public class partitionAlgo {
     public static int partition(int[] arr,int l ,int r,int p){
         int pi = arr[p];
         int m = l;
-        swap(arr,pi,r);
+        swap(arr,p,r);
         for(int i = l;i < r;i++){
             if(arr[i] < pi){
                 swap(arr,i,m);
