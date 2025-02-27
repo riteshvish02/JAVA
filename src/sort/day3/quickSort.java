@@ -15,7 +15,7 @@ public class quickSort {
         return (int) (Math.random()*(r-l) + l);
     }
     public static void f(int[] arr,int l, int r){
-        if(l > r) return;
+        if(l >= r) return;
         int pi = getRandomPivot(arr,l,r);
         System.out.println(pi + "pii");
         int m = partition(arr,l,r,pi);
