@@ -8,8 +8,8 @@ public class Aggrecows {
         int cows = 4;
         Arrays.sort(arr);
         int low = 1;
-        int high = arr[arr.length-1] - arr[0];
-        int ans = 0;
+        int high = arr[arr.length-1];
+        int ans = high;
         while(low <= high){
            int mid = low + (high - low)/2;
            if(canweplace(arr,mid,cows)){
