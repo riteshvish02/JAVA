@@ -6,7 +6,7 @@ public class permutations {
         permutation(str,0,str.length()-1);
     }
     public static void permutation(String str,int l ,int r){
-        if(l >= r){
+        if(l == r+1){
             System.out.println(str);
             return;
         }
