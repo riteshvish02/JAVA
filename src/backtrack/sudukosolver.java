@@ -36,7 +36,7 @@ public class sudukosolver {
                 }
             }
         }
-        return true;
+        return true; //return false for finding multiple solutions
     }
     public static boolean isSafe(char[][] board,int r,int c,char ch){
         for(int i = 0;i < 9;i++){
