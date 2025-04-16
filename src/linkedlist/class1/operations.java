@@ -10,5 +10,13 @@ public class operations {
         l1.print();
         l1.addAt(15,1);
         l1.print();
+        l1.removeAt(1);
+        l1.print();
+//        l1.removeFirst();
+//        l1.print();
+//        l1.removeLast();
+//        l1.print();
+        l1.reverse();
+
     }
 }
