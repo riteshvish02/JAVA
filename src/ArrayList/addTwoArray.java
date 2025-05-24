@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class addTwoArray {
     public static void main(String[] args) {
-        int[] arr1 = {9,9,9};
-        int[] arr2 = {9,9,9,9};
+        int[] arr1 = {1,1,1};
+        int[] arr2 = {3,3,3,3,3};
         System.out.println(AddTwoArray(arr1,arr2));
     }
     public static ArrayList<Integer> AddTwoArray(int a[], int b[]){
