@@ -10,10 +10,13 @@ public class rotatebyk {
 
         reverse(arr,0,n-1);    // <- Set breakpoint here
         reverse(arr,0,k-1);
-        reverse(arr,0,n-1);
+        reverse(arr,k,n-1);
 
-        System.out.println("Program Ended");
-        new Scanner(System.in).nextLine();  // Pause to observe
+//        System.out.println("Program Ended");
+//        new Scanner(System.in).nextLine();  // Pause to observe
+        for(int val:arr){
+            System.out.println(val);
+        }
     }
 
     public static void reverse(int[] nums, int left, int right) {

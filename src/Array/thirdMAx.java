@@ -16,8 +16,8 @@ public class thirdMAx {
                 continue;
             }
             if(first == null || num > first){
-                second = first;
                 third = second;
+                second = first;
                 first = num;
             }
             else if(second == null || num > second){
