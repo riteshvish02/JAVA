@@ -13,7 +13,7 @@ public class Normal {
 //            System.out.println();
 //        }
 
-        //pattern 2
+//        pattern 2
 //        int n = 5;
 //        int stars = 1;
 //        int spacee = n-1;
@@ -31,7 +31,7 @@ public class Normal {
 //        }
 
         //pattern 3
-//        int n =  99 ;
+//        int n =  5 ;
 //        int star = 1;
 //        int trows = n ;
 //
@@ -52,7 +52,8 @@ public class Normal {
 //        }
 
         //pattern 4
-        int n = 99;
+
+        int n = 10;
         int space = n/2 + 1;
         int star = 1;
         int trows = n;
@@ -72,6 +73,5 @@ public class Normal {
                 star += 2;
             }
         }
-
     }
 }
