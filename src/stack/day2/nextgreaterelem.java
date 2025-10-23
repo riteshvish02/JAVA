@@ -4,19 +4,20 @@ import java.util.Stack;
 
 public class nextgreaterelem {
     public static void main(String[] args) {
-        int arr[] = {4,5,8,15};
+        int arr[] = {5,4,2,3,6,9};
+        int res[] = new int[arr.length];
         Stack<Integer> st = new Stack<>();
-        int[] output = new int[arr.length];
-        for(int i =0; i < arr.length;i++){
-            while(!st.isEmpty() && arr[i] > arr[st.peek()]){
-                output[st.pop()] = arr[i];
+        st.push(0);
+        for(int i =1;i < arr.length;i++){
+            while(!st.empty() && arr[st.peek()] < arr[i]){
+                res[st.pop()] = arr[i];
             }
             st.push(i);
         }
-        while(!st.isEmpty()){
-            output[st.pop()] = -1;
+        if(!st.empty()){
+            res[st.pop()] = -1;
         }
-        for (int val :output){
+        for(int val : res){
             System.out.print(val + " ");
         }
     }
