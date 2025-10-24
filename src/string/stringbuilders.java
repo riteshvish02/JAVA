@@ -10,7 +10,5 @@ public class stringbuilders {
         System.out.println(str2.insert(2,"v"));
         str2.setCharAt(0,'d');
         System.out.println(str2);
-
-
     }
 }
