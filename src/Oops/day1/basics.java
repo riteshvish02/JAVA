@@ -16,7 +16,7 @@ public class basics {
 class Cycle{
     int gear = 5;
     void brakes(){
-        System.out.println("brakingg");
+        System.out.println("breakingg");
     }
 }
 class Complex{

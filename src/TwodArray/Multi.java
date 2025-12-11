@@ -15,7 +15,7 @@ public class Multi {
 
         if(arr1[0].length == arr2.length){
             int[][] ans = new int[arr1.length][arr2[0].length];
-            for(int row = 0 ; row < ans.length;row++){
+            for(int row = 0; row < ans.length;row++){
                 for(int col = 0;col < ans[0].length;col++){
                     int sum = 0;
                     for(int k = 0; k < arr1[0].length;k++){
